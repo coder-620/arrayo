@@ -1,0 +1,19 @@
+ARRAYO HELP MENU
+
+to import arrayo:
+| import arrayo
+
+to import all from arrayo for convenience:
+| from arrayo import *
+
+to combine all elements of an array into a string (no commas):
+| arrayo.string(<array>)
+
+to print an array:
+| arrayo.write(<array>,<dimensions: not needed>)
+
+to open a ".arr" file:
+| arrayo.get(<name>)
+
+to create or save a ".arr" file:
+| arrayo.save(<name>,<array>,<overwrite>)
